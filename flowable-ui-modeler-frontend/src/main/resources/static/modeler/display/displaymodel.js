@@ -277,7 +277,7 @@ request.success(function(data, textStatus, jqXHR) {
     paper = Raphael(document.getElementById('bpmnModel'), canvasWidth, canvasHeight);
     paper.setViewBox(0, 0, viewBoxWidth, viewBoxHeight, false);
     paper.renderfix();
-    console.log('cbcbcbcbcbc');
+    console.log('display model');
 
     if (data.pools)
     {
