@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.flowable.ui.application.FlowableUiIdmApplicationLdapAuthenticationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.672 s - in org.flowable.ui.application.FlowableUiIdmApplicationLdapAuthenticationTest

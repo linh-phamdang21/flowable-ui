@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flowable-ui-modeler-conf" />
+        <module name="flowable-spring-boot-starter-ui-idm" />
+        <module name="flowable-spring-boot-starter-ui-modeler" />
+        <module name="flowable-ui-task-conf" />
+        <module name="flowable-ui-admin-frontend" />
+        <module name="flowable-ui-idm-conf" />
+        <module name="flowable-ui-task-logic" />
+        <module name="flowable-ui-modeler-logic" />
+        <module name="flowable-spring-boot-starter-ui-admin" />
+        <module name="flowable-ui-task-rest" />
+        <module name="flowable-ui-admin-rest" />
+        <module name="flowable-ui-modeler-rest" />
+        <module name="flowable-ui-modeler-frontend" />
+        <module name="flowable-ui-idm-logic" />
+        <module name="flowable-ui-app" />
+        <module name="flowable-ui-idm-frontend" />
+        <module name="flowable-ui-admin-conf" />
+        <module name="flowable-ui-common" />
+        <module name="flowable-spring-boot-starter-ui-task" />
+        <module name="flowable-ui-idm-rest" />
+        <module name="flowable-ui-task-frontend" />
+        <module name="flowable-ui-admin-logic" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
