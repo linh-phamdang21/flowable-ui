@@ -275,9 +275,10 @@ request.success(function(data, textStatus, jqXHR) {
     jQuery('#bpmnModel').width(INITIAL_CANVAS_WIDTH);
     jQuery('#bpmnModel').height(INITIAL_CANVAS_HEIGHT);
     paper = Raphael(document.getElementById('bpmnModel'), canvasWidth, canvasHeight);
+    console.log('paper: ', paper);
     paper.setViewBox(0, 0, viewBoxWidth, viewBoxHeight, false);
     paper.renderfix();
-    console.log('cbcbcbcbcbc');
+    console.log('display model');
 
     if (data.pools)
     {
