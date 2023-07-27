@@ -143,6 +143,7 @@ function _drawAdhocSubProcess(element)
 
 function _drawStartEvent(element)
 {
+	console.log('__element: ', element);
 	var startEvent = _drawEvent(element, NORMAL_STROKE, 15);
 	startEvent.click(function() {
 		_zoom(true);
@@ -164,6 +165,7 @@ function _drawEvent(element, strokeWidth, radius)
 	var x = element.x + (element.width / 2);
 	var y = element.y + (element.height / 2);
 
+	console.log('paperrrr: ', paper);
 	var circle = paper.circle(x, y, radius);
 
 	var strokeColor = _bpmnGetColor(element, MAIN_STROKE_COLOR);

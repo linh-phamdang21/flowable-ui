@@ -43,7 +43,6 @@ FLOWABLE.APP_URL = {
     },
 
     getModelBpmn20ExportUrl: function (modelId) {
-        console.log('aaa___: ', FLOWABLE.CONFIG.contextModelerRestRoot + '/rest/models/' + modelId + '/bpmn20?version=' + Date.now());
         return FLOWABLE.CONFIG.contextModelerRestRoot + '/rest/models/' + modelId + '/bpmn20?version=' + Date.now();
     },
 
@@ -64,7 +63,6 @@ FLOWABLE.APP_URL = {
     },
 
     getModelHistoryBpmn20ExportUrl: function (modelId, modelHistoryId) {
-        console.log('aaa___: ', FLOWABLE.CONFIG.contextModelerRestRoot + '/rest/models/' + modelId + '/history/' + modelHistoryId + '/bpmn20?version=' + Date.now());
         return FLOWABLE.CONFIG.contextModelerRestRoot + '/rest/models/' + modelId + '/history/' + modelHistoryId + '/bpmn20?version=' + Date.now();
     },
 
